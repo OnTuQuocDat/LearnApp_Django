@@ -1,0 +1,10 @@
+python manage.py runserver
+pyinstaller --onefile -w --icon=dinosaur.ico dino.py
+pyuic6 -x v.ui -o v.py
+
+
+// Tạo 1 site mới:
+django-admin startproject "ten_app"
+
+//Tạo 1 app trong site ten_app
+django-admin startapp app
