@@ -8,3 +8,6 @@ django-admin startproject "ten_app"
 
 //Tạo 1 app trong site ten_app
 django-admin startapp app
+
+// Khởi tạo trang webbanhang
+python manage.py migrate --> cấu hình lại
